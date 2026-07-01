@@ -69,33 +69,6 @@ class MemoryRecord:
     explained_last: Optional[str]
     vector: Optional[np.ndarray] = None
 
-    @staticmethod
-    def from_row(row: tuple) -> "MemoryRecord":
-        """Converts a database row into a MemoryRecord object."""
-        # row[14] is the vector stored as a BLOB
-        vector_blob = row[14]
-        vector = np.frombuffer(vector_blob, dtype="float32") if vector_blob else None
-
-        return MemoryRecord(
-            id=row[0],
-            content=row[1],
-            store=row[2],
-            created_at=row[3],
-            last_accessed=row[4],
-            initial_salience=row[5],
-            current_strength=row[6],
-            lambda_eff=row[7],
-            base_lambda=row[8],
-            importance=row[9],
-            locked=bool(row[10]),
-            reinforcement_count=row[11],
-            consolidated=bool(row[13]),
-            explained_last=row[14]
-            if not vector_blob
-            else row[14],  # wait, row index fix below
-            vector=vector,
-        )
-
 
 # Redoing from_row with explicit index mapping to avoid errors
 def map_row_to_record(row: tuple) -> MemoryRecord:
@@ -275,7 +248,7 @@ class DatabaseManager:
         set_clause = ", ".join([f"{k} = ?" for k in keys])
         query = f"UPDATE memories SET {set_clause} WHERE id = ?"
         with self._get_connection() as conn:
-            conn.execute(query, (*values, memory_id))
+            conn.execute(query, tuple(values) + (memory_id,))
             conn.commit()
 
     def get_all_vectors(self) -> List[Tuple[str, np.ndarray]]:
@@ -332,22 +305,32 @@ class MemorySystem:
     def semantic_search(
         self, query_text: str, top_k: int = 3
     ) -> List[Tuple[MemoryRecord, float]]:
-        """Finds the most similar memories using vector cosine similarity."""
+        """Finds the most similar memories using vectorized cosine similarity."""
         query_vec = self.vectors.embed(query_text)
         all_vectors = self.db.get_all_vectors()
 
-        results = []
-        for mem_id, mem_vec in all_vectors:
-            score = self.vectors.cosine_similarity(query_vec, mem_vec)
-            results.append((mem_id, score))
+        if not all_vectors:
+            return []
 
-        # Sort by similarity score descending
-        results.sort(key=lambda x: x[1], reverse=True)
+        # Use NumPy matrix multiplication for O(N) search in C instead of Python loop
+        ids = [v[0] for v in all_vectors]
+        # Explicitly stack vectors into a 2D float32 array (N, dim)
+        vecs = np.stack([v[1] for v in all_vectors]).astype("float32")
+
+        # Dot product of all vectors with the query vector
+        # Shape: (N, dim) @ (dim,) -> (N,)
+        scores = np.dot(vecs, query_vec)
+
+        # Get indices of the top_k scores (descending)
+        top_indices = np.argsort(scores)[::-1][:top_k]
 
         top_results = []
-        for mem_id, score in results[:top_k]:
+        for idx in top_indices:
+            mem_id = ids[idx]
+            score = float(scores[idx])
             record = self.db.get_memory_by_id(mem_id)
-            top_results.append((record, score))
+            if record:
+                top_results.append((record, score))
 
         return top_results
 
