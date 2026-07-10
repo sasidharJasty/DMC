@@ -1,0 +1,17 @@
+{
+  "model_config": "Static_Baseline_v1",
+  "total_queries_tested": 7,
+  "retrieval_metrics": {
+    "recall_at_1": 0.8571428571428571,
+    "recall_at_3": 0.8571428571428571,
+    "task_success_rate": 0.8571428571428571
+  },
+  "efficiency_metrics": {
+    "survival_rate": 0.8888888888888888,
+    "avg_tokens_per_query": 17.571428571428573
+  },
+  "cognitive_metrics": {
+    "avg_core_fact_strength": 0.34823779802366445,
+    "avg_distractor_fact_strength": 0.16176320714079945
+  }
+}
