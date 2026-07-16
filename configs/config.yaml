@@ -1,0 +1,22 @@
+# Memory System Hyperparameters
+stores:
+  episodic:
+    base_lambda: 0.1
+    lambda_eff: 0.1
+    description: "Short-term event-based memory"
+  semantic:
+    base_lambda: 0.01
+    lambda_eff: 0.01
+    description: "Long-term factual knowledge"
+  working:
+    base_lambda: 0.5
+    lambda_eff: 0.5
+    description: "Immediate task-relevant context"
+
+model:
+  embedding_model_name: "all-MiniLM-L6-v2" # Small, fast, and effective
+  vector_dimension: 384
+
+system:
+  db_path: "memory_system.db"
+  default_salience: 0.5

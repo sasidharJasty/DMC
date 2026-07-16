@@ -1,0 +1,14 @@
+{
+  "labels": [
+    "personal",
+    "semantic",
+    "working",
+    "episodic"
+  ],
+  "label2idx": {
+    "personal": 0,
+    "semantic": 1,
+    "working": 2,
+    "episodic": 3
+  }
+}

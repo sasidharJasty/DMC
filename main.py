@@ -1,4 +1,4 @@
-from memory_system.manager import MemorySystem
+from src.manager import MemorySystem
 
 if __name__ == "__main__":
     sys = MemorySystem()

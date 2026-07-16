@@ -1,0 +1,18 @@
+[
+    {"step": 1, "type": "encode", "fact": "User is allergic to peanuts", "store": "semantic", "salience": 0.9, "is_core": true},
+    {"step": 2, "type": "encode", "fact": "User ordered a latte on Tuesday", "store": "episodic", "salience": 0.2, "is_core": false},
+    {"step": 3, "type": "encode", "fact": "User's favorite color is deep blue", "store": "semantic", "salience": 0.4, "is_core": false},
+    {"step": 4, "type": "query", "question": "What should I avoid cooking for the user?", "target_fact": "User is allergic to peanuts"},
+    {"step": 5, "type": "encode", "fact": "User hates loud noises", "store": "semantic", "salience": 0.7, "is_core": true},
+    {"step": 6, "type": "encode", "fact": "The user mentioned they like rain", "store": "episodic", "salience": 0.3, "is_core": false},
+    {"step": 10, "type": "query", "question": "What environment does the user dislike?", "target_fact": "User hates loud noises"},
+    {"step": 12, "type": "encode", "fact": "User lives in New York", "store": "semantic", "salience": 0.8, "is_core": true},
+    {"step": 15, "type": "query", "question": "Where does the user live?", "target_fact": "User lives in New York"},
+    {"step": 20, "type": "encode", "fact": "User read a book on Quantum Physics", "store": "episodic", "salience": 0.4, "is_core": false},
+    {"step": 25, "type": "query", "question": "What is the user reading?", "target_fact": "User read a book on Quantum Physics"},
+    {"step": 30, "type": "query", "question": "What is the user allergic to?", "target_fact": "User is allergic to peanuts"},
+    {"step": 35, "type": "encode", "fact": "User prefers tea over coffee", "store": "semantic", "salience": 0.5, "is_core": false},
+    {"step": 40, "type": "query", "question": "Does the user like loud environments?", "target_fact": "User hates loud noises"},
+    {"step": 45, "type": "encode", "fact": "User is a software engineer", "store": "semantic", "salience": 0.7, "is_core": true},
+    {"step": 50, "type": "query", "question": "What is the user's profession?", "target_fact": "User is a software engineer"}
+]

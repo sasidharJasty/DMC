@@ -1,0 +1,15 @@
+{
+  "total_queries": 5572,
+  "global_metrics": {
+    "recall_at_1": 0.0003589375448671931,
+    "recall_at_3": 0.0003589375448671931,
+    "recall_at_10": 0.0026920315865039484,
+    "avg_text_overlap_jaccard": 0.11840285767157252,
+    "anchor_hit_rate": 0.91367552045944
+  },
+  "category_breakdown": {
+    "bio": 0.043478260869565216,
+    "social": 0.0,
+    "episodic": 0.0
+  }
+}

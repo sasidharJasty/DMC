@@ -1,0 +1,8 @@
+{
+  "total_queries": 5572,
+  "metrics": {
+    "avg_answer_similarity": 0.6242814276846125,
+    "reference_memory_accuracy": 0.0003589375448671931,
+    "anchor_keyword_accuracy": 0.4576453697056712
+  }
+}

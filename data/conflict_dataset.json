@@ -1,0 +1,4334 @@
+[
+    {
+        "category": "Contradiction",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user has sold their PC and only games on console now.",
+                "salience": 0.82
+            },
+            {
+                "step": 2,
+                "type": "query",
+                "question": "What platform does the user game on?",
+                "target": "console",
+                "conflict_pair": [
+                    "PC gamer",
+                    "console"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Contradiction",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user is left-handed.",
+                "salience": 0.35
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user has trained themselves to write ambidextrously.",
+                "salience": 0.6
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user said their favorite season is autumn.",
+                "salience": 0.32
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user said they like to listen to podcasts while commuting.",
+                "salience": 0.12
+            },
+            {
+                "step": 5,
+                "type": "encode",
+                "fact": "The user mentioned they have a subscription to a science magazine.",
+                "salience": 0.19
+            },
+            {
+                "step": 6,
+                "type": "encode",
+                "fact": "The user commented that they enjoy board games with friends.",
+                "salience": 0.12
+            },
+            {
+                "step": 7,
+                "type": "encode",
+                "fact": "The user mentioned they recently started using a new to-do app.",
+                "salience": 0.24
+            },
+            {
+                "step": 8,
+                "type": "encode",
+                "fact": "The user said they like to sketch in a small notebook.",
+                "salience": 0.38
+            },
+            {
+                "step": 9,
+                "type": "encode",
+                "fact": "The user commented on enjoying documentaries about the ocean.",
+                "salience": 0.26
+            },
+            {
+                "step": 10,
+                "type": "encode",
+                "fact": "The user said they enjoy solving crossword puzzles on Sundays.",
+                "salience": 0.12
+            },
+            {
+                "step": 11,
+                "type": "encode",
+                "fact": "The user commented that they like a particular brand of notebook.",
+                "salience": 0.25
+            },
+            {
+                "step": 12,
+                "type": "encode",
+                "fact": "The user mentioned their favorite color is teal.",
+                "salience": 0.36
+            },
+            {
+                "step": 13,
+                "type": "encode",
+                "fact": "The user prefers tea over soda at lunch meetings.",
+                "salience": 0.12
+            },
+            {
+                "step": 14,
+                "type": "encode",
+                "fact": "The user said they prefer working with dual monitors.",
+                "salience": 0.12
+            },
+            {
+                "step": 15,
+                "type": "query",
+                "question": "How does the user write?",
+                "target": "ambidextrously",
+                "conflict_pair": [
+                    "left-handed",
+                    "ambidextrously"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Overlap",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user builds custom furniture for high-end interior design firms.",
+                "salience": 0.6
+            },
+            {
+                "step": 2,
+                "type": "query",
+                "question": "What is the user's woodworking specialty?",
+                "target": "builds furniture for design firms",
+                "conflict_pair": [
+                    "likes woodworking",
+                    "builds furniture for design firms"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Building-On",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user is learning basic French vocabulary.",
+                "salience": 0.55
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user has passed the DALF C1 French proficiency exam.",
+                "salience": 0.76
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user said they prefer working with dual monitors.",
+                "salience": 0.4
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user mentioned enjoying jazz music on weekends.",
+                "salience": 0.2
+            },
+            {
+                "step": 5,
+                "type": "query",
+                "question": "What is the user's French proficiency?",
+                "target": "passed DALF C1",
+                "conflict_pair": [
+                    "basic vocabulary",
+                    "passed DALF C1"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Building-On",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user is curious about AI.",
+                "salience": 0.31
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user has built several LLM-based agents for automation.",
+                "salience": 0.81
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user mentioned they are trying to reduce their screen time.",
+                "salience": 0.37
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user mentioned a fondness for old black-and-white films.",
+                "salience": 0.16
+            },
+            {
+                "step": 5,
+                "type": "encode",
+                "fact": "The user mentioned they recently started using a new to-do app.",
+                "salience": 0.11
+            },
+            {
+                "step": 6,
+                "type": "encode",
+                "fact": "The user mentioned they follow a few tech blogs regularly.",
+                "salience": 0.23
+            },
+            {
+                "step": 7,
+                "type": "encode",
+                "fact": "The user said they usually eat breakfast around 7am.",
+                "salience": 0.26
+            },
+            {
+                "step": 8,
+                "type": "encode",
+                "fact": "The user said their favorite season is autumn.",
+                "salience": 0.34
+            },
+            {
+                "step": 9,
+                "type": "query",
+                "question": "How has the user's interest in AI evolved?",
+                "target": "built several LLM-based agents",
+                "conflict_pair": [
+                    "curious about",
+                    "built several LLM-based agents"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Overlap",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user is into cars.",
+                "salience": 0.31
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user restores classic Italian sports cars as a side business.",
+                "salience": 0.87
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user mentioned they recently upgraded their laptop.",
+                "salience": 0.34
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user commented that they like a particular brand of notebook.",
+                "salience": 0.39
+            },
+            {
+                "step": 5,
+                "type": "encode",
+                "fact": "The user recently adopted a new houseplant for their office.",
+                "salience": 0.24
+            },
+            {
+                "step": 6,
+                "type": "encode",
+                "fact": "The user mentioned owning a set of noise-cancelling headphones.",
+                "salience": 0.22
+            },
+            {
+                "step": 7,
+                "type": "encode",
+                "fact": "The user commented on enjoying long train journeys.",
+                "salience": 0.2
+            },
+            {
+                "step": 8,
+                "type": "encode",
+                "fact": "The user commented that they enjoy stargazing occasionally.",
+                "salience": 0.13
+            },
+            {
+                "step": 9,
+                "type": "encode",
+                "fact": "The user said they like trying new recipes on weekends.",
+                "salience": 0.15
+            },
+            {
+                "step": 10,
+                "type": "encode",
+                "fact": "The user commented on liking minimalist desk setups.",
+                "salience": 0.22
+            },
+            {
+                "step": 11,
+                "type": "encode",
+                "fact": "The user mentioned they recently tried a new hiking trail nearby.",
+                "salience": 0.25
+            },
+            {
+                "step": 12,
+                "type": "encode",
+                "fact": "The user commented that they enjoy board games with friends.",
+                "salience": 0.3
+            },
+            {
+                "step": 13,
+                "type": "encode",
+                "fact": "The user mentioned they have a standing desk at home.",
+                "salience": 0.22
+            },
+            {
+                "step": 14,
+                "type": "encode",
+                "fact": "The user mentioned a fondness for old black-and-white films.",
+                "salience": 0.33
+            },
+            {
+                "step": 15,
+                "type": "query",
+                "question": "What does the user do with cars?",
+                "target": "restores classic Italian sports cars",
+                "conflict_pair": [
+                    "into cars",
+                    "restores classic Italian sports cars"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Building-On",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user now manages twenty hives and sells honey commercially.",
+                "salience": 0.77
+            },
+            {
+                "step": 2,
+                "type": "query",
+                "question": "What is the user's current beekeeping scale?",
+                "target": "manages twenty hives commercially",
+                "conflict_pair": [
+                    "just started beekeeping",
+                    "manages twenty hives"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Building-On",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user is a beginner at chess.",
+                "salience": 0.36
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user has reached a Candidate Master rating in chess.",
+                "salience": 0.71
+            },
+            {
+                "step": 3,
+                "type": "query",
+                "question": "What is the user's chess skill level?",
+                "target": "Candidate Master",
+                "conflict_pair": [
+                    "beginner",
+                    "Candidate Master"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Contradiction",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user avoids all dairy products.",
+                "salience": 0.46
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user has reintroduced dairy into their diet after allergy testing.",
+                "salience": 0.83
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user mentioned enjoying trivia nights with friends.",
+                "salience": 0.18
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user said they keep a small herb garden on their balcony.",
+                "salience": 0.37
+            },
+            {
+                "step": 5,
+                "type": "encode",
+                "fact": "The user mentioned their favorite color is teal.",
+                "salience": 0.32
+            },
+            {
+                "step": 6,
+                "type": "encode",
+                "fact": "The user mentioned they collect vintage postcards casually.",
+                "salience": 0.15
+            },
+            {
+                "step": 7,
+                "type": "query",
+                "question": "Does the user eat dairy?",
+                "target": "reintroduced dairy",
+                "conflict_pair": [
+                    "avoids dairy",
+                    "eats dairy"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Building-On",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user is exploring meditation for the first time.",
+                "salience": 0.46
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user now teaches mindfulness workshops professionally.",
+                "salience": 0.65
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user commented that they prefer window seats on flights.",
+                "salience": 0.31
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user said their favorite season is autumn.",
+                "salience": 0.12
+            },
+            {
+                "step": 5,
+                "type": "encode",
+                "fact": "The user commented on enjoying documentaries about the ocean.",
+                "salience": 0.22
+            },
+            {
+                "step": 6,
+                "type": "query",
+                "question": "What is the user's relationship with meditation now?",
+                "target": "teaches mindfulness workshops",
+                "conflict_pair": [
+                    "exploring meditation",
+                    "teaches workshops"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Building-On",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user is learning the basics of photography.",
+                "salience": 0.58
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user's photography has been featured in a national gallery exhibit.",
+                "salience": 0.64
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user mentioned they collect vintage postcards casually.",
+                "salience": 0.34
+            },
+            {
+                "step": 4,
+                "type": "query",
+                "question": "What is the user's photography achievement?",
+                "target": "featured in a national gallery",
+                "conflict_pair": [
+                    "basics of photography",
+                    "featured in a gallery"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Contradiction",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user is terrified of spiders.",
+                "salience": 0.38
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user has overcome their phobia and now keeps tarantulas as pets.",
+                "salience": 0.92
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user mentioned enjoying trivia nights with friends.",
+                "salience": 0.16
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user commented that they prefer window seats on flights.",
+                "salience": 0.38
+            },
+            {
+                "step": 5,
+                "type": "encode",
+                "fact": "The user mentioned a fondness for old black-and-white films.",
+                "salience": 0.36
+            },
+            {
+                "step": 6,
+                "type": "encode",
+                "fact": "The user mentioned enjoying jazz music on weekends.",
+                "salience": 0.19
+            },
+            {
+                "step": 7,
+                "type": "encode",
+                "fact": "The user mentioned they recently tried a new hiking trail nearby.",
+                "salience": 0.3
+            },
+            {
+                "step": 8,
+                "type": "encode",
+                "fact": "The user recently adopted a new houseplant for their office.",
+                "salience": 0.22
+            },
+            {
+                "step": 9,
+                "type": "encode",
+                "fact": "The user said they enjoy people-watching at cafes.",
+                "salience": 0.37
+            },
+            {
+                "step": 10,
+                "type": "encode",
+                "fact": "The user mentioned enjoying a specific brand of running shoes.",
+                "salience": 0.24
+            },
+            {
+                "step": 11,
+                "type": "encode",
+                "fact": "The user mentioned they recently upgraded their laptop.",
+                "salience": 0.18
+            },
+            {
+                "step": 12,
+                "type": "encode",
+                "fact": "The user said they prefer working with dual monitors.",
+                "salience": 0.17
+            },
+            {
+                "step": 13,
+                "type": "query",
+                "question": "How does the user feel about spiders?",
+                "target": "keeps tarantulas as pets",
+                "conflict_pair": [
+                    "terrified",
+                    "keeps tarantulas"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Overlap",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user enjoys puzzles.",
+                "salience": 0.53
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user designs escape rooms professionally for a major entertainment company.",
+                "salience": 0.91
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user recently adopted a new houseplant for their office.",
+                "salience": 0.19
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user said they are planning a short trip to the mountains.",
+                "salience": 0.11
+            },
+            {
+                "step": 5,
+                "type": "encode",
+                "fact": "The user mentioned attending a local farmers market most weekends.",
+                "salience": 0.2
+            },
+            {
+                "step": 6,
+                "type": "encode",
+                "fact": "The user commented that they enjoy board games with friends.",
+                "salience": 0.12
+            },
+            {
+                "step": 7,
+                "type": "encode",
+                "fact": "The user commented that they prefer window seats on flights.",
+                "salience": 0.21
+            },
+            {
+                "step": 8,
+                "type": "encode",
+                "fact": "The user commented that they like using a mechanical keyboard.",
+                "salience": 0.23
+            },
+            {
+                "step": 9,
+                "type": "encode",
+                "fact": "The user mentioned they recently started using a new to-do app.",
+                "salience": 0.17
+            },
+            {
+                "step": 10,
+                "type": "encode",
+                "fact": "The user mentioned their favorite color is teal.",
+                "salience": 0.22
+            },
+            {
+                "step": 11,
+                "type": "encode",
+                "fact": "The user mentioned they follow a few tech blogs regularly.",
+                "salience": 0.3
+            },
+            {
+                "step": 12,
+                "type": "encode",
+                "fact": "The user mentioned enjoying trivia nights with friends.",
+                "salience": 0.15
+            },
+            {
+                "step": 13,
+                "type": "encode",
+                "fact": "The user said they prefer working with dual monitors.",
+                "salience": 0.15
+            },
+            {
+                "step": 14,
+                "type": "encode",
+                "fact": "The user mentioned they are trying to reduce their screen time.",
+                "salience": 0.28
+            },
+            {
+                "step": 15,
+                "type": "query",
+                "question": "What is the user's professional relationship with puzzles?",
+                "target": "designs escape rooms professionally",
+                "conflict_pair": [
+                    "enjoys puzzles",
+                    "designs escape rooms"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Overlap",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user has a dog named Max.",
+                "salience": 0.48
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user has a Golden Retriever named Max.",
+                "salience": 0.91
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user mentioned enjoying trivia nights with friends.",
+                "salience": 0.38
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user mentioned they have a sister who lives in Chicago.",
+                "salience": 0.13
+            },
+            {
+                "step": 5,
+                "type": "encode",
+                "fact": "The user commented that they enjoy stargazing occasionally.",
+                "salience": 0.32
+            },
+            {
+                "step": 6,
+                "type": "query",
+                "question": "What kind of pet does the user have?",
+                "target": "Golden Retriever",
+                "conflict_pair": [
+                    "dog",
+                    "Golden Retriever"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Overlap",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user works in finance.",
+                "salience": 0.51
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user is a senior derivatives trader at an investment bank.",
+                "salience": 0.93
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user mentioned they follow a few tech blogs regularly.",
+                "salience": 0.25
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user said they prefer working with dual monitors.",
+                "salience": 0.12
+            },
+            {
+                "step": 5,
+                "type": "query",
+                "question": "What is the user's specific role in finance?",
+                "target": "senior derivatives trader",
+                "conflict_pair": [
+                    "works in finance",
+                    "senior derivatives trader"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Building-On",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user has a passion for astronomy.",
+                "salience": 0.56
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user is now pursuing a PhD in Astrophysics.",
+                "salience": 0.61
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user said they usually go for a short walk after dinner.",
+                "salience": 0.36
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user commented that they prefer aisle seats at the movies.",
+                "salience": 0.17
+            },
+            {
+                "step": 5,
+                "type": "encode",
+                "fact": "The user mentioned attending a local farmers market most weekends.",
+                "salience": 0.34
+            },
+            {
+                "step": 6,
+                "type": "encode",
+                "fact": "The user mentioned they recently upgraded their laptop.",
+                "salience": 0.24
+            },
+            {
+                "step": 7,
+                "type": "encode",
+                "fact": "The user said they recently repainted their bedroom.",
+                "salience": 0.19
+            },
+            {
+                "step": 8,
+                "type": "encode",
+                "fact": "The user mentioned their favorite color is teal.",
+                "salience": 0.34
+            },
+            {
+                "step": 9,
+                "type": "encode",
+                "fact": "The user said their favorite season is autumn.",
+                "salience": 0.17
+            },
+            {
+                "step": 10,
+                "type": "encode",
+                "fact": "The user recently adopted a new houseplant for their office.",
+                "salience": 0.11
+            },
+            {
+                "step": 11,
+                "type": "query",
+                "question": "What is the user's current academic focus?",
+                "target": "PhD in Astrophysics",
+                "conflict_pair": [
+                    "passion for astronomy",
+                    "PhD in Astrophysics"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Contradiction",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user only drinks bottled water.",
+                "salience": 0.39
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user now exclusively drinks filtered tap water for sustainability.",
+                "salience": 0.94
+            },
+            {
+                "step": 3,
+                "type": "query",
+                "question": "What water does the user drink?",
+                "target": "filtered tap water",
+                "conflict_pair": [
+                    "bottled water",
+                    "filtered tap water"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Overlap",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user is a certified CrossFit instructor and marathon runner.",
+                "salience": 0.54
+            },
+            {
+                "step": 2,
+                "type": "query",
+                "question": "Describe the user's fitness level.",
+                "target": "CrossFit instructor and marathon runner",
+                "conflict_pair": [
+                    "into fitness",
+                    "certified CrossFit instructor"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Building-On",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user knows basic Spanish.",
+                "salience": 0.38
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user is now fluent in Spanish after living in Madrid.",
+                "salience": 0.86
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user mentioned enjoying trivia nights with friends.",
+                "salience": 0.38
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user mentioned they recently started using a new to-do app.",
+                "salience": 0.31
+            },
+            {
+                "step": 5,
+                "type": "encode",
+                "fact": "The user commented on liking minimalist desk setups.",
+                "salience": 0.14
+            },
+            {
+                "step": 6,
+                "type": "encode",
+                "fact": "The user mentioned they have a sister who lives in Chicago.",
+                "salience": 0.11
+            },
+            {
+                "step": 7,
+                "type": "encode",
+                "fact": "The user said they usually eat breakfast around 7am.",
+                "salience": 0.21
+            },
+            {
+                "step": 8,
+                "type": "encode",
+                "fact": "The user said they are planning a short trip to the mountains.",
+                "salience": 0.27
+            },
+            {
+                "step": 9,
+                "type": "query",
+                "question": "How well does the user speak Spanish?",
+                "target": "fluent",
+                "conflict_pair": [
+                    "basic",
+                    "fluent"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Contradiction",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user is a vegetarian.",
+                "salience": 0.41
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user has decided to start eating fish, becoming a pescatarian.",
+                "salience": 0.67
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user said they are planning a short trip to the mountains.",
+                "salience": 0.33
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user recently adopted a new houseplant for their office.",
+                "salience": 0.4
+            },
+            {
+                "step": 5,
+                "type": "encode",
+                "fact": "The user commented that they prefer window seats on flights.",
+                "salience": 0.36
+            },
+            {
+                "step": 6,
+                "type": "query",
+                "question": "What is the user's diet?",
+                "target": "pescatarian",
+                "conflict_pair": [
+                    "vegetarian",
+                    "pescatarian"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Contradiction",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user has quit smoking entirely after a health scare.",
+                "salience": 0.83
+            },
+            {
+                "step": 2,
+                "type": "query",
+                "question": "Does the user smoke?",
+                "target": "quit smoking",
+                "conflict_pair": [
+                    "smokes cigarettes",
+                    "quit smoking"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Contradiction",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user lives in a small apartment.",
+                "salience": 0.5
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user has moved into a large suburban house.",
+                "salience": 0.81
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user said their favorite season is autumn.",
+                "salience": 0.13
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user commented on liking minimalist desk setups.",
+                "salience": 0.23
+            },
+            {
+                "step": 5,
+                "type": "encode",
+                "fact": "The user mentioned they have a subscription to a science magazine.",
+                "salience": 0.24
+            },
+            {
+                "step": 6,
+                "type": "encode",
+                "fact": "The user commented that they enjoy stargazing occasionally.",
+                "salience": 0.39
+            },
+            {
+                "step": 7,
+                "type": "encode",
+                "fact": "The user said they like to listen to podcasts while commuting.",
+                "salience": 0.36
+            },
+            {
+                "step": 8,
+                "type": "encode",
+                "fact": "The user mentioned they have a sister who lives in Chicago.",
+                "salience": 0.18
+            },
+            {
+                "step": 9,
+                "type": "encode",
+                "fact": "The user said they usually eat breakfast around 7am.",
+                "salience": 0.25
+            },
+            {
+                "step": 10,
+                "type": "encode",
+                "fact": "The user mentioned they recently upgraded their laptop.",
+                "salience": 0.15
+            },
+            {
+                "step": 11,
+                "type": "encode",
+                "fact": "The user said they usually go for a short walk after dinner.",
+                "salience": 0.37
+            },
+            {
+                "step": 12,
+                "type": "query",
+                "question": "What is the user's current living situation?",
+                "target": "large suburban house",
+                "conflict_pair": [
+                    "small apartment",
+                    "large suburban house"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Overlap",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user enjoys photography.",
+                "salience": 0.32
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user specializes in underwater macro photography.",
+                "salience": 0.68
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user said they like to listen to podcasts while commuting.",
+                "salience": 0.35
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user said they enjoy people-watching at cafes.",
+                "salience": 0.12
+            },
+            {
+                "step": 5,
+                "type": "encode",
+                "fact": "The user said they enjoy solving crossword puzzles on Sundays.",
+                "salience": 0.15
+            },
+            {
+                "step": 6,
+                "type": "encode",
+                "fact": "The user mentioned they recently started using a new to-do app.",
+                "salience": 0.19
+            },
+            {
+                "step": 7,
+                "type": "encode",
+                "fact": "The user said they usually eat breakfast around 7am.",
+                "salience": 0.32
+            },
+            {
+                "step": 8,
+                "type": "encode",
+                "fact": "The user said they prefer working with dual monitors.",
+                "salience": 0.27
+            },
+            {
+                "step": 9,
+                "type": "encode",
+                "fact": "The user commented that they prefer window seats on flights.",
+                "salience": 0.19
+            },
+            {
+                "step": 10,
+                "type": "encode",
+                "fact": "The user commented on enjoying documentaries about the ocean.",
+                "salience": 0.14
+            },
+            {
+                "step": 11,
+                "type": "encode",
+                "fact": "The user mentioned they recently upgraded their laptop.",
+                "salience": 0.31
+            },
+            {
+                "step": 12,
+                "type": "query",
+                "question": "What kind of photography does the user specialize in?",
+                "target": "underwater macro photography",
+                "conflict_pair": [
+                    "enjoys photography",
+                    "underwater macro photography"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Overlap",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user has a passion for music.",
+                "salience": 0.36
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user is a classically trained pianist and composer.",
+                "salience": 0.68
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user mentioned owning a set of noise-cancelling headphones.",
+                "salience": 0.31
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user said they keep a small herb garden on their balcony.",
+                "salience": 0.14
+            },
+            {
+                "step": 5,
+                "type": "encode",
+                "fact": "The user mentioned they have a sister who lives in Chicago.",
+                "salience": 0.11
+            },
+            {
+                "step": 6,
+                "type": "query",
+                "question": "What is the user's musical background?",
+                "target": "classically trained pianist",
+                "conflict_pair": [
+                    "passion for music",
+                    "classically trained pianist"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Contradiction",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user dislikes spicy food.",
+                "salience": 0.38
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user has developed a taste for spicy food after traveling to Thailand.",
+                "salience": 0.62
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user mentioned they have a subscription to a science magazine.",
+                "salience": 0.12
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user said they prefer working with dual monitors.",
+                "salience": 0.19
+            },
+            {
+                "step": 5,
+                "type": "encode",
+                "fact": "The user said they usually eat breakfast around 7am.",
+                "salience": 0.29
+            },
+            {
+                "step": 6,
+                "type": "encode",
+                "fact": "The user said their favorite season is autumn.",
+                "salience": 0.37
+            },
+            {
+                "step": 7,
+                "type": "query",
+                "question": "How does the user feel about spicy food?",
+                "target": "taste for spicy food",
+                "conflict_pair": [
+                    "dislikes",
+                    "taste for"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Contradiction",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user is a strict introvert who avoids parties.",
+                "salience": 0.48
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user has become very social and hosts parties weekly.",
+                "salience": 0.82
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user commented that they prefer aisle seats at the movies.",
+                "salience": 0.3
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user said they enjoy people-watching at cafes.",
+                "salience": 0.19
+            },
+            {
+                "step": 5,
+                "type": "encode",
+                "fact": "The user commented that they like a particular brand of notebook.",
+                "salience": 0.18
+            },
+            {
+                "step": 6,
+                "type": "encode",
+                "fact": "The user commented that they enjoy stargazing occasionally.",
+                "salience": 0.14
+            },
+            {
+                "step": 7,
+                "type": "encode",
+                "fact": "The user mentioned a fondness for old black-and-white films.",
+                "salience": 0.29
+            },
+            {
+                "step": 8,
+                "type": "encode",
+                "fact": "The user said they like to listen to podcasts while commuting.",
+                "salience": 0.24
+            },
+            {
+                "step": 9,
+                "type": "encode",
+                "fact": "The user mentioned they have a standing desk at home.",
+                "salience": 0.38
+            },
+            {
+                "step": 10,
+                "type": "query",
+                "question": "How social is the user?",
+                "target": "hosts parties weekly",
+                "conflict_pair": [
+                    "avoids parties",
+                    "hosts parties weekly"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Contradiction",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user prefers Android phones.",
+                "salience": 0.56
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user has switched to an iPhone for the ecosystem integration.",
+                "salience": 0.7
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user mentioned they follow a few tech blogs regularly.",
+                "salience": 0.33
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user mentioned they recently tried a new hiking trail nearby.",
+                "salience": 0.26
+            },
+            {
+                "step": 5,
+                "type": "encode",
+                "fact": "The user said they enjoy solving crossword puzzles on Sundays.",
+                "salience": 0.33
+            },
+            {
+                "step": 6,
+                "type": "encode",
+                "fact": "The user commented on enjoying documentaries about the ocean.",
+                "salience": 0.26
+            },
+            {
+                "step": 7,
+                "type": "encode",
+                "fact": "The user commented that they like collecting vinyl records.",
+                "salience": 0.1
+            },
+            {
+                "step": 8,
+                "type": "query",
+                "question": "Which phone does the user prefer?",
+                "target": "iPhone",
+                "conflict_pair": [
+                    "Android",
+                    "iPhone"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Building-On",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user is learning to play the guitar.",
+                "salience": 0.32
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user now performs live gigs with a local band.",
+                "salience": 0.83
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user said they usually go for a short walk after dinner.",
+                "salience": 0.2
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user mentioned a fondness for old black-and-white films.",
+                "salience": 0.31
+            },
+            {
+                "step": 5,
+                "type": "encode",
+                "fact": "The user said they usually eat breakfast around 7am.",
+                "salience": 0.27
+            },
+            {
+                "step": 6,
+                "type": "encode",
+                "fact": "The user said they keep a small herb garden on their balcony.",
+                "salience": 0.16
+            },
+            {
+                "step": 7,
+                "type": "encode",
+                "fact": "The user mentioned they follow a few tech blogs regularly.",
+                "salience": 0.3
+            },
+            {
+                "step": 8,
+                "type": "encode",
+                "fact": "The user commented that they like a particular brand of notebook.",
+                "salience": 0.21
+            },
+            {
+                "step": 9,
+                "type": "encode",
+                "fact": "The user commented that they prefer aisle seats at the movies.",
+                "salience": 0.32
+            },
+            {
+                "step": 10,
+                "type": "query",
+                "question": "What is the user's guitar-playing status?",
+                "target": "performs live gigs",
+                "conflict_pair": [
+                    "learning guitar",
+                    "performs live gigs"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Building-On",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user is taking a beginner pottery class.",
+                "salience": 0.45
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user's ceramics are now sold in several boutique stores.",
+                "salience": 0.7
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user said they like to sketch in a small notebook.",
+                "salience": 0.3
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user prefers tea over soda at lunch meetings.",
+                "salience": 0.34
+            },
+            {
+                "step": 5,
+                "type": "encode",
+                "fact": "The user said their favorite season is autumn.",
+                "salience": 0.32
+            },
+            {
+                "step": 6,
+                "type": "encode",
+                "fact": "The user said they usually go for a short walk after dinner.",
+                "salience": 0.35
+            },
+            {
+                "step": 7,
+                "type": "query",
+                "question": "What has the user's pottery hobby developed into?",
+                "target": "ceramics sold in boutiques",
+                "conflict_pair": [
+                    "beginner pottery class",
+                    "sold in boutiques"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Building-On",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user knows how to drive a manual car.",
+                "salience": 0.59
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user is now a licensed rally driver.",
+                "salience": 0.79
+            },
+            {
+                "step": 3,
+                "type": "query",
+                "question": "What is the user's driving skill level?",
+                "target": "licensed rally driver",
+                "conflict_pair": [
+                    "drive a manual",
+                    "licensed rally driver"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Overlap",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user likes fashion.",
+                "salience": 0.31
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user is a costume designer for major theater productions.",
+                "salience": 0.86
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user said their favorite season is autumn.",
+                "salience": 0.25
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user commented on enjoying documentaries about the ocean.",
+                "salience": 0.11
+            },
+            {
+                "step": 5,
+                "type": "query",
+                "question": "What is the user's specific role in fashion?",
+                "target": "costume designer for theater",
+                "conflict_pair": [
+                    "likes fashion",
+                    "costume designer"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Contradiction",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user is skeptical about cryptocurrency.",
+                "salience": 0.56
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user has become an active crypto investor and trader.",
+                "salience": 0.79
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user mentioned enjoying jazz music on weekends.",
+                "salience": 0.35
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user said they prefer working with dual monitors.",
+                "salience": 0.39
+            },
+            {
+                "step": 5,
+                "type": "query",
+                "question": "How does the user feel about cryptocurrency?",
+                "target": "active crypto investor",
+                "conflict_pair": [
+                    "skeptical",
+                    "active investor"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Contradiction",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "After treatment, the user is no longer allergic to peanuts.",
+                "salience": 0.67
+            },
+            {
+                "step": 2,
+                "type": "query",
+                "question": "Is the user allergic to peanuts?",
+                "target": "no longer allergic",
+                "conflict_pair": [
+                    "allergic",
+                    "no longer allergic"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Overlap",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user lives in New York City.",
+                "salience": 0.48
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user resides in Manhattan, New York.",
+                "salience": 0.71
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user mentioned attending a local farmers market most weekends.",
+                "salience": 0.2
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user commented that they like using a mechanical keyboard.",
+                "salience": 0.25
+            },
+            {
+                "step": 5,
+                "type": "encode",
+                "fact": "The user mentioned they recently upgraded their laptop.",
+                "salience": 0.2
+            },
+            {
+                "step": 6,
+                "type": "encode",
+                "fact": "The user said they like trying new recipes on weekends.",
+                "salience": 0.25
+            },
+            {
+                "step": 7,
+                "type": "encode",
+                "fact": "The user commented on liking minimalist desk setups.",
+                "salience": 0.21
+            },
+            {
+                "step": 8,
+                "type": "encode",
+                "fact": "The user mentioned they have a subscription to a science magazine.",
+                "salience": 0.18
+            },
+            {
+                "step": 9,
+                "type": "encode",
+                "fact": "The user said their favorite season is autumn.",
+                "salience": 0.18
+            },
+            {
+                "step": 10,
+                "type": "query",
+                "question": "Where does the user live?",
+                "target": "Manhattan, New York",
+                "conflict_pair": [
+                    "New York City",
+                    "Manhattan, New York"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Contradiction",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user is a night owl.",
+                "salience": 0.47
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user has transitioned to being an early bird for health reasons.",
+                "salience": 0.69
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user said they enjoy people-watching at cafes.",
+                "salience": 0.23
+            },
+            {
+                "step": 4,
+                "type": "query",
+                "question": "What is the user's sleep preference?",
+                "target": "early bird",
+                "conflict_pair": [
+                    "night owl",
+                    "early bird"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Contradiction",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user rents their home.",
+                "salience": 0.53
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user has just purchased their first home.",
+                "salience": 0.64
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user commented on enjoying long train journeys.",
+                "salience": 0.31
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user mentioned enjoying trivia nights with friends.",
+                "salience": 0.22
+            },
+            {
+                "step": 5,
+                "type": "encode",
+                "fact": "The user said they recently repainted their bedroom.",
+                "salience": 0.3
+            },
+            {
+                "step": 6,
+                "type": "encode",
+                "fact": "The user said they like to listen to podcasts while commuting.",
+                "salience": 0.21
+            },
+            {
+                "step": 7,
+                "type": "encode",
+                "fact": "The user commented that they enjoy stargazing occasionally.",
+                "salience": 0.37
+            },
+            {
+                "step": 8,
+                "type": "encode",
+                "fact": "The user mentioned they recently started using a new to-do app.",
+                "salience": 0.24
+            },
+            {
+                "step": 9,
+                "type": "encode",
+                "fact": "The user mentioned they have a standing desk at home.",
+                "salience": 0.17
+            },
+            {
+                "step": 10,
+                "type": "encode",
+                "fact": "The user said they enjoy solving crossword puzzles on Sundays.",
+                "salience": 0.12
+            },
+            {
+                "step": 11,
+                "type": "query",
+                "question": "Does the user own or rent their home?",
+                "target": "purchased first home",
+                "conflict_pair": [
+                    "rents",
+                    "purchased"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Contradiction",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user is single.",
+                "salience": 0.4
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user recently got married.",
+                "salience": 0.61
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user commented that they like collecting vinyl records.",
+                "salience": 0.36
+            },
+            {
+                "step": 4,
+                "type": "query",
+                "question": "What is the user's relationship status?",
+                "target": "married",
+                "conflict_pair": [
+                    "single",
+                    "married"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Building-On",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user is a beginner at yoga.",
+                "salience": 0.51
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user is now a certified yoga instructor.",
+                "salience": 0.93
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user said they enjoy solving crossword puzzles on Sundays.",
+                "salience": 0.21
+            },
+            {
+                "step": 4,
+                "type": "query",
+                "question": "What is the user's current yoga level?",
+                "target": "certified yoga instructor",
+                "conflict_pair": [
+                    "beginner",
+                    "certified yoga instructor"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Overlap",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user likes to travel.",
+                "salience": 0.36
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user has visited over sixty countries and writes a travel blog.",
+                "salience": 0.83
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user said they recently repainted their bedroom.",
+                "salience": 0.22
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user mentioned attending a local farmers market most weekends.",
+                "salience": 0.31
+            },
+            {
+                "step": 5,
+                "type": "encode",
+                "fact": "The user mentioned owning a set of noise-cancelling headphones.",
+                "salience": 0.24
+            },
+            {
+                "step": 6,
+                "type": "encode",
+                "fact": "The user mentioned enjoying trivia nights with friends.",
+                "salience": 0.11
+            },
+            {
+                "step": 7,
+                "type": "encode",
+                "fact": "The user said they are planning a short trip to the mountains.",
+                "salience": 0.19
+            },
+            {
+                "step": 8,
+                "type": "encode",
+                "fact": "The user commented on liking minimalist desk setups.",
+                "salience": 0.18
+            },
+            {
+                "step": 9,
+                "type": "encode",
+                "fact": "The user mentioned they have a sister who lives in Chicago.",
+                "salience": 0.36
+            },
+            {
+                "step": 10,
+                "type": "query",
+                "question": "What is the user's travel experience?",
+                "target": "visited over sixty countries",
+                "conflict_pair": [
+                    "likes to travel",
+                    "visited sixty countries"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Building-On",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user is new to public speaking clubs.",
+                "salience": 0.34
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user has won a national public speaking championship.",
+                "salience": 0.84
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user mentioned their favorite color is teal.",
+                "salience": 0.34
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user mentioned they recently started using a new to-do app.",
+                "salience": 0.31
+            },
+            {
+                "step": 5,
+                "type": "encode",
+                "fact": "The user commented that they prefer window seats on flights.",
+                "salience": 0.24
+            },
+            {
+                "step": 6,
+                "type": "encode",
+                "fact": "The user mentioned owning a set of noise-cancelling headphones.",
+                "salience": 0.27
+            },
+            {
+                "step": 7,
+                "type": "query",
+                "question": "What is the user's public speaking accomplishment?",
+                "target": "won a national championship",
+                "conflict_pair": [
+                    "new to public speaking",
+                    "won a national championship"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Contradiction",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user drives a gas-powered car.",
+                "salience": 0.39
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user has switched to an all-electric vehicle.",
+                "salience": 0.62
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user commented that they like a particular brand of notebook.",
+                "salience": 0.13
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user commented that they like using a mechanical keyboard.",
+                "salience": 0.25
+            },
+            {
+                "step": 5,
+                "type": "query",
+                "question": "What kind of car does the user drive?",
+                "target": "electric vehicle",
+                "conflict_pair": [
+                    "gas-powered",
+                    "electric vehicle"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Building-On",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user has just picked up chess as a pastime.",
+                "salience": 0.58
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user is now coaching youth chess teams competitively.",
+                "salience": 0.94
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user said they prefer working with dual monitors.",
+                "salience": 0.15
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user prefers tea over soda at lunch meetings.",
+                "salience": 0.18
+            },
+            {
+                "step": 5,
+                "type": "encode",
+                "fact": "The user mentioned enjoying a specific brand of running shoes.",
+                "salience": 0.2
+            },
+            {
+                "step": 6,
+                "type": "encode",
+                "fact": "The user commented that they like a particular brand of notebook.",
+                "salience": 0.24
+            },
+            {
+                "step": 7,
+                "type": "encode",
+                "fact": "The user mentioned they recently tried a new hiking trail nearby.",
+                "salience": 0.2
+            },
+            {
+                "step": 8,
+                "type": "encode",
+                "fact": "The user commented that they like using a mechanical keyboard.",
+                "salience": 0.36
+            },
+            {
+                "step": 9,
+                "type": "encode",
+                "fact": "The user mentioned they recently started using a new to-do app.",
+                "salience": 0.18
+            },
+            {
+                "step": 10,
+                "type": "encode",
+                "fact": "The user mentioned they collect vintage postcards casually.",
+                "salience": 0.39
+            },
+            {
+                "step": 11,
+                "type": "encode",
+                "fact": "The user mentioned they have a subscription to a science magazine.",
+                "salience": 0.23
+            },
+            {
+                "step": 12,
+                "type": "query",
+                "question": "What is the user's current role in chess?",
+                "target": "coaches youth chess teams",
+                "conflict_pair": [
+                    "picked up chess",
+                    "coaches youth teams"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Building-On",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user is reading a book about History.",
+                "salience": 0.49
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user is now reading the second volume of the History series focused on the Industrial Revolution.",
+                "salience": 0.89
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user recently adopted a new houseplant for their office.",
+                "salience": 0.1
+            },
+            {
+                "step": 4,
+                "type": "query",
+                "question": "What is the user reading right now?",
+                "target": "Industrial Revolution",
+                "conflict_pair": [
+                    "History",
+                    "Industrial Revolution"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Overlap",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user owns a vintage car.",
+                "salience": 0.39
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user owns a 1967 Ford Mustang in mint condition.",
+                "salience": 0.68
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user said they enjoy solving crossword puzzles on Sundays.",
+                "salience": 0.16
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user mentioned a fondness for old black-and-white films.",
+                "salience": 0.25
+            },
+            {
+                "step": 5,
+                "type": "encode",
+                "fact": "The user said they usually eat breakfast around 7am.",
+                "salience": 0.32
+            },
+            {
+                "step": 6,
+                "type": "encode",
+                "fact": "The user said they prefer working with dual monitors.",
+                "salience": 0.39
+            },
+            {
+                "step": 7,
+                "type": "encode",
+                "fact": "The user mentioned owning a set of noise-cancelling headphones.",
+                "salience": 0.26
+            },
+            {
+                "step": 8,
+                "type": "encode",
+                "fact": "The user commented on liking minimalist desk setups.",
+                "salience": 0.18
+            },
+            {
+                "step": 9,
+                "type": "query",
+                "question": "What specific car does the user own?",
+                "target": "1967 Ford Mustang",
+                "conflict_pair": [
+                    "vintage car",
+                    "1967 Ford Mustang"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Contradiction",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user lives in London.",
+                "salience": 0.43
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user has moved from London to Tokyo.",
+                "salience": 0.7
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user mentioned they have a sister who lives in Chicago.",
+                "salience": 0.16
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user said they recently repainted their bedroom.",
+                "salience": 0.33
+            },
+            {
+                "step": 5,
+                "type": "encode",
+                "fact": "The user mentioned they recently started using a new to-do app.",
+                "salience": 0.13
+            },
+            {
+                "step": 6,
+                "type": "encode",
+                "fact": "The user said they usually go for a short walk after dinner.",
+                "salience": 0.21
+            },
+            {
+                "step": 7,
+                "type": "encode",
+                "fact": "The user mentioned they recently upgraded their laptop.",
+                "salience": 0.21
+            },
+            {
+                "step": 8,
+                "type": "encode",
+                "fact": "The user commented on enjoying documentaries about the ocean.",
+                "salience": 0.2
+            },
+            {
+                "step": 9,
+                "type": "query",
+                "question": "What city does the user live in?",
+                "target": "Tokyo",
+                "conflict_pair": [
+                    "London",
+                    "Tokyo"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Building-On",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user has started jogging occasionally.",
+                "salience": 0.42
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user has completed their first full marathon.",
+                "salience": 0.89
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user said they keep a small herb garden on their balcony.",
+                "salience": 0.25
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user commented that they enjoy board games with friends.",
+                "salience": 0.34
+            },
+            {
+                "step": 5,
+                "type": "encode",
+                "fact": "The user mentioned they have a standing desk at home.",
+                "salience": 0.39
+            },
+            {
+                "step": 6,
+                "type": "encode",
+                "fact": "The user mentioned they recently started using a new to-do app.",
+                "salience": 0.32
+            },
+            {
+                "step": 7,
+                "type": "encode",
+                "fact": "The user mentioned a fondness for old black-and-white films.",
+                "salience": 0.3
+            },
+            {
+                "step": 8,
+                "type": "encode",
+                "fact": "The user mentioned they have a subscription to a science magazine.",
+                "salience": 0.19
+            },
+            {
+                "step": 9,
+                "type": "encode",
+                "fact": "The user said they like trying new recipes on weekends.",
+                "salience": 0.3
+            },
+            {
+                "step": 10,
+                "type": "encode",
+                "fact": "The user commented that they enjoy stargazing occasionally.",
+                "salience": 0.29
+            },
+            {
+                "step": 11,
+                "type": "encode",
+                "fact": "The user said they enjoy people-watching at cafes.",
+                "salience": 0.13
+            },
+            {
+                "step": 12,
+                "type": "query",
+                "question": "What is the user's running achievement?",
+                "target": "completed a marathon",
+                "conflict_pair": [
+                    "jogging occasionally",
+                    "completed a marathon"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Building-On",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user is a first-year law student.",
+                "salience": 0.52
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user has passed the bar exam and joined a top law firm.",
+                "salience": 0.87
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user said they recently repainted their bedroom.",
+                "salience": 0.29
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user said they keep a small herb garden on their balcony.",
+                "salience": 0.13
+            },
+            {
+                "step": 5,
+                "type": "encode",
+                "fact": "The user mentioned their favorite color is teal.",
+                "salience": 0.33
+            },
+            {
+                "step": 6,
+                "type": "encode",
+                "fact": "The user prefers tea over soda at lunch meetings.",
+                "salience": 0.36
+            },
+            {
+                "step": 7,
+                "type": "encode",
+                "fact": "The user mentioned they recently tried a new hiking trail nearby.",
+                "salience": 0.28
+            },
+            {
+                "step": 8,
+                "type": "encode",
+                "fact": "The user said their favorite season is autumn.",
+                "salience": 0.14
+            },
+            {
+                "step": 9,
+                "type": "encode",
+                "fact": "The user mentioned enjoying a specific brand of running shoes.",
+                "salience": 0.4
+            },
+            {
+                "step": 10,
+                "type": "encode",
+                "fact": "The user said they enjoy solving crossword puzzles on Sundays.",
+                "salience": 0.33
+            },
+            {
+                "step": 11,
+                "type": "encode",
+                "fact": "The user said they are planning a short trip to the mountains.",
+                "salience": 0.2
+            },
+            {
+                "step": 12,
+                "type": "encode",
+                "fact": "The user commented that they enjoy board games with friends.",
+                "salience": 0.23
+            },
+            {
+                "step": 13,
+                "type": "encode",
+                "fact": "The user mentioned they are trying to reduce their screen time.",
+                "salience": 0.21
+            },
+            {
+                "step": 14,
+                "type": "encode",
+                "fact": "The user commented that they prefer aisle seats at the movies.",
+                "salience": 0.25
+            },
+            {
+                "step": 15,
+                "type": "query",
+                "question": "What is the user's legal career status?",
+                "target": "passed the bar, joined a top firm",
+                "conflict_pair": [
+                    "first-year law student",
+                    "passed the bar exam"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Contradiction",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user is now avoiding caffeine and prefers herbal tea.",
+                "salience": 0.72
+            },
+            {
+                "step": 2,
+                "type": "query",
+                "question": "What does the user like to drink in the morning?",
+                "target": "herbal tea",
+                "conflict_pair": [
+                    "coffee",
+                    "herbal tea"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Contradiction",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user follows a strict keto diet.",
+                "salience": 0.52
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user has abandoned keto and now eats a balanced omnivorous diet.",
+                "salience": 0.91
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user commented that they like a particular brand of notebook.",
+                "salience": 0.17
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user commented on enjoying long train journeys.",
+                "salience": 0.24
+            },
+            {
+                "step": 5,
+                "type": "query",
+                "question": "What diet does the user follow?",
+                "target": "balanced omnivorous diet",
+                "conflict_pair": [
+                    "keto diet",
+                    "balanced omnivorous diet"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Overlap",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user is interested in climate change.",
+                "salience": 0.46
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user is an active researcher in carbon sequestration technologies.",
+                "salience": 0.75
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user mentioned enjoying trivia nights with friends.",
+                "salience": 0.21
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user said they usually go for a short walk after dinner.",
+                "salience": 0.24
+            },
+            {
+                "step": 5,
+                "type": "query",
+                "question": "How is the user involved with climate change?",
+                "target": "researcher in carbon sequestration",
+                "conflict_pair": [
+                    "interested in",
+                    "researcher in"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Building-On",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user is taking an introductory course in statistics.",
+                "salience": 0.35
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user is now a data scientist applying advanced statistical models at work.",
+                "salience": 0.8
+            },
+            {
+                "step": 3,
+                "type": "query",
+                "question": "What is the user's relationship with statistics?",
+                "target": "data scientist",
+                "conflict_pair": [
+                    "introductory course",
+                    "data scientist"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Overlap",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user is a certified sommelier working at a Michelin-starred restaurant.",
+                "salience": 0.51
+            },
+            {
+                "step": 2,
+                "type": "query",
+                "question": "What is the user's expertise with wine?",
+                "target": "certified sommelier",
+                "conflict_pair": [
+                    "likes wine",
+                    "certified sommelier"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Overlap",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user works in the healthcare sector.",
+                "salience": 0.45
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user is a specialized surgeon at a municipal hospital.",
+                "salience": 0.87
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user commented on enjoying long train journeys.",
+                "salience": 0.13
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user said they like to sketch in a small notebook.",
+                "salience": 0.17
+            },
+            {
+                "step": 5,
+                "type": "encode",
+                "fact": "The user said they like trying new recipes on weekends.",
+                "salience": 0.31
+            },
+            {
+                "step": 6,
+                "type": "encode",
+                "fact": "The user prefers tea over soda at lunch meetings.",
+                "salience": 0.19
+            },
+            {
+                "step": 7,
+                "type": "query",
+                "question": "What is the user's career?",
+                "target": "specialized surgeon",
+                "conflict_pair": [
+                    "healthcare sector",
+                    "specialized surgeon"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Overlap",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user is interested in history.",
+                "salience": 0.33
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user is an expert in 18th century French history.",
+                "salience": 0.69
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user mentioned enjoying trivia nights with friends.",
+                "salience": 0.36
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user commented that they prefer aisle seats at the movies.",
+                "salience": 0.4
+            },
+            {
+                "step": 5,
+                "type": "encode",
+                "fact": "The user commented that they prefer window seats on flights.",
+                "salience": 0.19
+            },
+            {
+                "step": 6,
+                "type": "encode",
+                "fact": "The user commented that they enjoy stargazing occasionally.",
+                "salience": 0.29
+            },
+            {
+                "step": 7,
+                "type": "encode",
+                "fact": "The user said their favorite season is autumn.",
+                "salience": 0.28
+            },
+            {
+                "step": 8,
+                "type": "encode",
+                "fact": "The user said they like trying new recipes on weekends.",
+                "salience": 0.32
+            },
+            {
+                "step": 9,
+                "type": "encode",
+                "fact": "The user said they prefer working with dual monitors.",
+                "salience": 0.38
+            },
+            {
+                "step": 10,
+                "type": "encode",
+                "fact": "The user said they keep a small herb garden on their balcony.",
+                "salience": 0.16
+            },
+            {
+                "step": 11,
+                "type": "query",
+                "question": "What is the user's specific historical expertise?",
+                "target": "18th century French history",
+                "conflict_pair": [
+                    "interested in history",
+                    "expert in 18th century French history"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Overlap",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user is interested in robotics.",
+                "salience": 0.35
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user leads a robotics team that competes internationally.",
+                "salience": 0.79
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user mentioned enjoying trivia nights with friends.",
+                "salience": 0.24
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user commented that they prefer aisle seats at the movies.",
+                "salience": 0.14
+            },
+            {
+                "step": 5,
+                "type": "encode",
+                "fact": "The user commented that they like using a mechanical keyboard.",
+                "salience": 0.35
+            },
+            {
+                "step": 6,
+                "type": "encode",
+                "fact": "The user commented that they prefer window seats on flights.",
+                "salience": 0.25
+            },
+            {
+                "step": 7,
+                "type": "encode",
+                "fact": "The user said they usually eat breakfast around 7am.",
+                "salience": 0.31
+            },
+            {
+                "step": 8,
+                "type": "query",
+                "question": "What is the user's role in robotics?",
+                "target": "leads an international robotics team",
+                "conflict_pair": [
+                    "interested in robotics",
+                    "leads a robotics team"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Building-On",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user has started journaling occasionally.",
+                "salience": 0.55
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user has published a bestselling memoir based on their journals.",
+                "salience": 0.89
+            },
+            {
+                "step": 3,
+                "type": "query",
+                "question": "What has the user's journaling led to?",
+                "target": "published a bestselling memoir",
+                "conflict_pair": [
+                    "journaling occasionally",
+                    "published memoir"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Contradiction",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user dislikes cats.",
+                "salience": 0.56
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user has adopted two cats and adores them.",
+                "salience": 0.74
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user commented that they like a particular brand of notebook.",
+                "salience": 0.17
+            },
+            {
+                "step": 4,
+                "type": "query",
+                "question": "How does the user feel about cats?",
+                "target": "adores them",
+                "conflict_pair": [
+                    "dislikes cats",
+                    "adores them"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Overlap",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user enjoys baking.",
+                "salience": 0.31
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user is a pastry chef specializing in French laminated doughs.",
+                "salience": 0.68
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user commented that they like a particular brand of notebook.",
+                "salience": 0.28
+            },
+            {
+                "step": 4,
+                "type": "query",
+                "question": "What is the user's baking specialty?",
+                "target": "pastry chef, laminated doughs",
+                "conflict_pair": [
+                    "enjoys baking",
+                    "pastry chef"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Contradiction",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user believes remote work is always better.",
+                "salience": 0.58
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user now believes in-person collaboration is essential.",
+                "salience": 0.6
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user commented on liking minimalist desk setups.",
+                "salience": 0.26
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user commented that they like a particular brand of notebook.",
+                "salience": 0.25
+            },
+            {
+                "step": 5,
+                "type": "encode",
+                "fact": "The user mentioned their favorite color is teal.",
+                "salience": 0.14
+            },
+            {
+                "step": 6,
+                "type": "encode",
+                "fact": "The user said they are planning a short trip to the mountains.",
+                "salience": 0.2
+            },
+            {
+                "step": 7,
+                "type": "query",
+                "question": "What does the user believe about work style?",
+                "target": "in-person collaboration essential",
+                "conflict_pair": [
+                    "remote work always better",
+                    "in-person collaboration essential"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Contradiction",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user is afraid of public speaking.",
+                "salience": 0.32
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user now regularly gives keynote talks at conferences.",
+                "salience": 0.87
+            },
+            {
+                "step": 3,
+                "type": "query",
+                "question": "How does the user feel about public speaking?",
+                "target": "gives keynote talks",
+                "conflict_pair": [
+                    "afraid of public speaking",
+                    "gives keynote talks"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Contradiction",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user prefers working from home.",
+                "salience": 0.56
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user has decided that a hybrid office model is more productive.",
+                "salience": 0.73
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user mentioned they have a subscription to a science magazine.",
+                "salience": 0.31
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user commented that they like collecting vinyl records.",
+                "salience": 0.31
+            },
+            {
+                "step": 5,
+                "type": "encode",
+                "fact": "The user said they recently repainted their bedroom.",
+                "salience": 0.12
+            },
+            {
+                "step": 6,
+                "type": "encode",
+                "fact": "The user mentioned they recently tried a new hiking trail nearby.",
+                "salience": 0.29
+            },
+            {
+                "step": 7,
+                "type": "encode",
+                "fact": "The user mentioned they are trying to reduce their screen time.",
+                "salience": 0.26
+            },
+            {
+                "step": 8,
+                "type": "encode",
+                "fact": "The user mentioned they have a standing desk at home.",
+                "salience": 0.17
+            },
+            {
+                "step": 9,
+                "type": "encode",
+                "fact": "The user mentioned they recently upgraded their laptop.",
+                "salience": 0.24
+            },
+            {
+                "step": 10,
+                "type": "query",
+                "question": "What is the user's preferred work arrangement?",
+                "target": "hybrid office model",
+                "conflict_pair": [
+                    "working from home",
+                    "hybrid office"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Overlap",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user has documented over four hundred bird species and publishes field guides.",
+                "salience": 0.7
+            },
+            {
+                "step": 2,
+                "type": "query",
+                "question": "What is the user's birdwatching achievement?",
+                "target": "documented 400+ species, publishes guides",
+                "conflict_pair": [
+                    "enjoys birdwatching",
+                    "documented 400+ species"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Overlap",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user likes reading.",
+                "salience": 0.32
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user is an avid collector of 1st edition rare books.",
+                "salience": 0.82
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user mentioned enjoying jazz music on weekends.",
+                "salience": 0.15
+            },
+            {
+                "step": 4,
+                "type": "query",
+                "question": "What is the user's specific reading habit?",
+                "target": "collector of 1st edition rare books",
+                "conflict_pair": [
+                    "likes reading",
+                    "collector of 1st edition"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Building-On",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user is a novice rock climber.",
+                "salience": 0.48
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user has successfully summited a 5.13 grade route.",
+                "salience": 0.93
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user said they like trying new recipes on weekends.",
+                "salience": 0.17
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user mentioned they follow a few tech blogs regularly.",
+                "salience": 0.29
+            },
+            {
+                "step": 5,
+                "type": "encode",
+                "fact": "The user mentioned they recently started using a new to-do app.",
+                "salience": 0.33
+            },
+            {
+                "step": 6,
+                "type": "encode",
+                "fact": "The user mentioned enjoying trivia nights with friends.",
+                "salience": 0.26
+            },
+            {
+                "step": 7,
+                "type": "encode",
+                "fact": "The user commented on liking minimalist desk setups.",
+                "salience": 0.29
+            },
+            {
+                "step": 8,
+                "type": "encode",
+                "fact": "The user said they recently repainted their bedroom.",
+                "salience": 0.18
+            },
+            {
+                "step": 9,
+                "type": "encode",
+                "fact": "The user commented on enjoying long train journeys.",
+                "salience": 0.12
+            },
+            {
+                "step": 10,
+                "type": "encode",
+                "fact": "The user commented that they like a particular brand of notebook.",
+                "salience": 0.19
+            },
+            {
+                "step": 11,
+                "type": "encode",
+                "fact": "The user said they like to listen to podcasts while commuting.",
+                "salience": 0.18
+            },
+            {
+                "step": 12,
+                "type": "encode",
+                "fact": "The user said their favorite season is autumn.",
+                "salience": 0.2
+            },
+            {
+                "step": 13,
+                "type": "query",
+                "question": "What is the user's rock climbing level?",
+                "target": "summited a 5.13 grade route",
+                "conflict_pair": [
+                    "novice rock climber",
+                    "summited 5.13 route"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Contradiction",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user is a Democrat.",
+                "salience": 0.32
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user has become politically independent.",
+                "salience": 0.69
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user commented that they enjoy board games with friends.",
+                "salience": 0.23
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user said they recently repainted their bedroom.",
+                "salience": 0.26
+            },
+            {
+                "step": 5,
+                "type": "query",
+                "question": "What is the user's political affiliation?",
+                "target": "politically independent",
+                "conflict_pair": [
+                    "Democrat",
+                    "independent"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Overlap",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user enjoys volunteering.",
+                "salience": 0.45
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user founded a nonprofit that has helped thousands of families.",
+                "salience": 0.7
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user commented on enjoying long train journeys.",
+                "salience": 0.12
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user commented on liking minimalist desk setups.",
+                "salience": 0.33
+            },
+            {
+                "step": 5,
+                "type": "encode",
+                "fact": "The user mentioned attending a local farmers market most weekends.",
+                "salience": 0.36
+            },
+            {
+                "step": 6,
+                "type": "encode",
+                "fact": "The user mentioned they have a subscription to a science magazine.",
+                "salience": 0.2
+            },
+            {
+                "step": 7,
+                "type": "encode",
+                "fact": "The user mentioned enjoying trivia nights with friends.",
+                "salience": 0.34
+            },
+            {
+                "step": 8,
+                "type": "encode",
+                "fact": "The user commented on enjoying documentaries about the ocean.",
+                "salience": 0.18
+            },
+            {
+                "step": 9,
+                "type": "encode",
+                "fact": "The user said their favorite season is autumn.",
+                "salience": 0.1
+            },
+            {
+                "step": 10,
+                "type": "encode",
+                "fact": "The user said they enjoy solving crossword puzzles on Sundays.",
+                "salience": 0.32
+            },
+            {
+                "step": 11,
+                "type": "encode",
+                "fact": "The user mentioned they collect vintage postcards casually.",
+                "salience": 0.35
+            },
+            {
+                "step": 12,
+                "type": "encode",
+                "fact": "The user mentioned they recently started using a new to-do app.",
+                "salience": 0.27
+            },
+            {
+                "step": 13,
+                "type": "query",
+                "question": "What is the user's involvement in volunteering?",
+                "target": "founded a nonprofit",
+                "conflict_pair": [
+                    "enjoys volunteering",
+                    "founded a nonprofit"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Overlap",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user likes gardening.",
+                "salience": 0.56
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user designs botanical gardens for public parks.",
+                "salience": 0.94
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user said they are planning a short trip to the mountains.",
+                "salience": 0.36
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user commented on enjoying long train journeys.",
+                "salience": 0.36
+            },
+            {
+                "step": 5,
+                "type": "encode",
+                "fact": "The user said they like to listen to podcasts while commuting.",
+                "salience": 0.36
+            },
+            {
+                "step": 6,
+                "type": "encode",
+                "fact": "The user said they usually go for a short walk after dinner.",
+                "salience": 0.21
+            },
+            {
+                "step": 7,
+                "type": "encode",
+                "fact": "The user mentioned enjoying a specific brand of running shoes.",
+                "salience": 0.19
+            },
+            {
+                "step": 8,
+                "type": "encode",
+                "fact": "The user commented that they like using a mechanical keyboard.",
+                "salience": 0.32
+            },
+            {
+                "step": 9,
+                "type": "query",
+                "question": "What is the user's professional role in gardening?",
+                "target": "designs botanical gardens",
+                "conflict_pair": [
+                    "likes gardening",
+                    "designs botanical gardens"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Overlap",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user enjoys hiking.",
+                "salience": 0.33
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user has summited three of the Seven Summits.",
+                "salience": 0.69
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user said they usually eat breakfast around 7am.",
+                "salience": 0.3
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user mentioned enjoying a specific brand of running shoes.",
+                "salience": 0.26
+            },
+            {
+                "step": 5,
+                "type": "encode",
+                "fact": "The user mentioned they follow a few tech blogs regularly.",
+                "salience": 0.22
+            },
+            {
+                "step": 6,
+                "type": "encode",
+                "fact": "The user mentioned they have a sister who lives in Chicago.",
+                "salience": 0.16
+            },
+            {
+                "step": 7,
+                "type": "query",
+                "question": "What is the user's hiking/mountaineering achievement?",
+                "target": "summited three of the Seven Summits",
+                "conflict_pair": [
+                    "enjoys hiking",
+                    "summited Seven Summits"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Building-On",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user is trying out home brewing beer.",
+                "salience": 0.5
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user has opened a licensed microbrewery.",
+                "salience": 0.87
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user recently adopted a new houseplant for their office.",
+                "salience": 0.24
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user prefers tea over soda at lunch meetings.",
+                "salience": 0.13
+            },
+            {
+                "step": 5,
+                "type": "encode",
+                "fact": "The user mentioned attending a local farmers market most weekends.",
+                "salience": 0.38
+            },
+            {
+                "step": 6,
+                "type": "encode",
+                "fact": "The user said they enjoy solving crossword puzzles on Sundays.",
+                "salience": 0.24
+            },
+            {
+                "step": 7,
+                "type": "encode",
+                "fact": "The user mentioned they recently tried a new hiking trail nearby.",
+                "salience": 0.18
+            },
+            {
+                "step": 8,
+                "type": "encode",
+                "fact": "The user commented on enjoying documentaries about the ocean.",
+                "salience": 0.21
+            },
+            {
+                "step": 9,
+                "type": "encode",
+                "fact": "The user said they enjoy people-watching at cafes.",
+                "salience": 0.28
+            },
+            {
+                "step": 10,
+                "type": "encode",
+                "fact": "The user mentioned they collect vintage postcards casually.",
+                "salience": 0.39
+            },
+            {
+                "step": 11,
+                "type": "query",
+                "question": "What has the user's home brewing turned into?",
+                "target": "opened a licensed microbrewery",
+                "conflict_pair": [
+                    "home brewing",
+                    "licensed microbrewery"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Building-On",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user is interested in psychology.",
+                "salience": 0.58
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user has completed a degree in Clinical Psychology.",
+                "salience": 0.64
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user said they like to listen to podcasts while commuting.",
+                "salience": 0.27
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user mentioned owning a set of noise-cancelling headphones.",
+                "salience": 0.4
+            },
+            {
+                "step": 5,
+                "type": "query",
+                "question": "What is the user's educational background in psychology?",
+                "target": "degree in Clinical Psychology",
+                "conflict_pair": [
+                    "interested in",
+                    "degree in"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Building-On",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user is dabbling in woodworking as a hobby.",
+                "salience": 0.59
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user now sells handmade furniture through their own online shop.",
+                "salience": 0.68
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user said they keep a small herb garden on their balcony.",
+                "salience": 0.28
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user commented that they prefer window seats on flights.",
+                "salience": 0.33
+            },
+            {
+                "step": 5,
+                "type": "encode",
+                "fact": "The user said they enjoy solving crossword puzzles on Sundays.",
+                "salience": 0.24
+            },
+            {
+                "step": 6,
+                "type": "encode",
+                "fact": "The user commented on enjoying documentaries about the ocean.",
+                "salience": 0.37
+            },
+            {
+                "step": 7,
+                "type": "encode",
+                "fact": "The user prefers tea over soda at lunch meetings.",
+                "salience": 0.27
+            },
+            {
+                "step": 8,
+                "type": "encode",
+                "fact": "The user recently adopted a new houseplant for their office.",
+                "salience": 0.32
+            },
+            {
+                "step": 9,
+                "type": "encode",
+                "fact": "The user mentioned attending a local farmers market most weekends.",
+                "salience": 0.22
+            },
+            {
+                "step": 10,
+                "type": "encode",
+                "fact": "The user commented on enjoying long train journeys.",
+                "salience": 0.22
+            },
+            {
+                "step": 11,
+                "type": "query",
+                "question": "What has the user's woodworking hobby become?",
+                "target": "sells handmade furniture",
+                "conflict_pair": [
+                    "dabbling",
+                    "sells handmade furniture"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Building-On",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user now competes in professional surfing tournaments.",
+                "salience": 0.64
+            },
+            {
+                "step": 2,
+                "type": "query",
+                "question": "What is the user's surfing level?",
+                "target": "competes professionally",
+                "conflict_pair": [
+                    "learning to surf",
+                    "competes professionally"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Contradiction",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user is currently unemployed.",
+                "salience": 0.48
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user has just been hired as a Lead Engineer at SpaceX.",
+                "salience": 0.73
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user mentioned they collect vintage postcards casually.",
+                "salience": 0.33
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user mentioned they follow a few tech blogs regularly.",
+                "salience": 0.36
+            },
+            {
+                "step": 5,
+                "type": "encode",
+                "fact": "The user said they like to sketch in a small notebook.",
+                "salience": 0.15
+            },
+            {
+                "step": 6,
+                "type": "encode",
+                "fact": "The user commented that they like using a mechanical keyboard.",
+                "salience": 0.15
+            },
+            {
+                "step": 7,
+                "type": "query",
+                "question": "What is the user's current employment status?",
+                "target": "Lead Engineer at SpaceX",
+                "conflict_pair": [
+                    "unemployed",
+                    "Lead Engineer at SpaceX"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Contradiction",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user is a morning gym-goer.",
+                "salience": 0.58
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user now exclusively works out late at night.",
+                "salience": 0.9
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user said they recently repainted their bedroom.",
+                "salience": 0.24
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user commented that they prefer aisle seats at the movies.",
+                "salience": 0.36
+            },
+            {
+                "step": 5,
+                "type": "encode",
+                "fact": "The user said they like to sketch in a small notebook.",
+                "salience": 0.37
+            },
+            {
+                "step": 6,
+                "type": "query",
+                "question": "When does the user work out?",
+                "target": "late at night",
+                "conflict_pair": [
+                    "morning gym-goer",
+                    "late at night"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Overlap",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user is a fan of cinema.",
+                "salience": 0.54
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user is a professional film critic for a major magazine.",
+                "salience": 0.93
+            },
+            {
+                "step": 3,
+                "type": "query",
+                "question": "What is the user's professional relationship with cinema?",
+                "target": "professional film critic",
+                "conflict_pair": [
+                    "fan of cinema",
+                    "professional film critic"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Building-On",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user enjoys cooking Italian food.",
+                "salience": 0.56
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user has completed a professional certification in authentic Neapolitan pizza making.",
+                "salience": 0.94
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user mentioned they recently upgraded their laptop.",
+                "salience": 0.29
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user mentioned they are trying to reduce their screen time.",
+                "salience": 0.22
+            },
+            {
+                "step": 5,
+                "type": "query",
+                "question": "What is the user's specific expertise in Italian cooking?",
+                "target": "Neapolitan pizza making",
+                "conflict_pair": [
+                    "enjoys cooking",
+                    "professional certification"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Overlap",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user has completed a solo transatlantic sailing voyage.",
+                "salience": 0.74
+            },
+            {
+                "step": 2,
+                "type": "query",
+                "question": "What is the user's sailing accomplishment?",
+                "target": "solo transatlantic voyage",
+                "conflict_pair": [
+                    "enjoys sailing",
+                    "solo transatlantic voyage"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Contradiction",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user is a software engineer at Google.",
+                "salience": 0.51
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user left Google and joined a startup called AI-Core.",
+                "salience": 0.85
+            },
+            {
+                "step": 3,
+                "type": "query",
+                "question": "Where does the user work?",
+                "target": "AI-Core",
+                "conflict_pair": [
+                    "Google",
+                    "AI-Core"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Overlap",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user is a coffee enthusiast.",
+                "salience": 0.34
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user is a licensed Q-grader who judges specialty coffee competitions.",
+                "salience": 0.94
+            },
+            {
+                "step": 3,
+                "type": "query",
+                "question": "What is the user's specific coffee expertise?",
+                "target": "licensed Q-grader",
+                "conflict_pair": [
+                    "coffee enthusiast",
+                    "licensed Q-grader"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Building-On",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user is new to gardening.",
+                "salience": 0.33
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user has won several awards at regional flower shows.",
+                "salience": 0.94
+            },
+            {
+                "step": 3,
+                "type": "query",
+                "question": "What has the user achieved in gardening?",
+                "target": "won awards at flower shows",
+                "conflict_pair": [
+                    "new to gardening",
+                    "won awards"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Building-On",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user is an amateur painter.",
+                "salience": 0.53
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user has become a professional oil painter and is opening a gallery.",
+                "salience": 0.82
+            },
+            {
+                "step": 3,
+                "type": "query",
+                "question": "What is the user's painting status?",
+                "target": "professional oil painter",
+                "conflict_pair": [
+                    "amateur",
+                    "professional"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Building-On",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user is learning basic first aid.",
+                "salience": 0.49
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user is now a certified paramedic working in emergency response.",
+                "salience": 0.89
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user commented on enjoying documentaries about the ocean.",
+                "salience": 0.28
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user mentioned they recently started using a new to-do app.",
+                "salience": 0.38
+            },
+            {
+                "step": 5,
+                "type": "encode",
+                "fact": "The user mentioned owning a set of noise-cancelling headphones.",
+                "salience": 0.33
+            },
+            {
+                "step": 6,
+                "type": "encode",
+                "fact": "The user commented that they enjoy stargazing occasionally.",
+                "salience": 0.24
+            },
+            {
+                "step": 7,
+                "type": "encode",
+                "fact": "The user mentioned they recently upgraded their laptop.",
+                "salience": 0.35
+            },
+            {
+                "step": 8,
+                "type": "query",
+                "question": "What is the user's medical training level?",
+                "target": "certified paramedic",
+                "conflict_pair": [
+                    "basic first aid",
+                    "certified paramedic"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Contradiction",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user now flies frequently for work without any fear.",
+                "salience": 0.61
+            },
+            {
+                "step": 2,
+                "type": "query",
+                "question": "How does the user feel about flying?",
+                "target": "flies frequently without fear",
+                "conflict_pair": [
+                    "scared of flying",
+                    "flies frequently"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Contradiction",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user is a Windows user.",
+                "salience": 0.42
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user has fully switched to using macOS for all their work.",
+                "salience": 0.63
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user mentioned they recently started using a new to-do app.",
+                "salience": 0.2
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user mentioned they are trying to reduce their screen time.",
+                "salience": 0.36
+            },
+            {
+                "step": 5,
+                "type": "encode",
+                "fact": "The user commented on liking minimalist desk setups.",
+                "salience": 0.17
+            },
+            {
+                "step": 6,
+                "type": "encode",
+                "fact": "The user commented that they prefer aisle seats at the movies.",
+                "salience": 0.16
+            },
+            {
+                "step": 7,
+                "type": "encode",
+                "fact": "The user mentioned they have a subscription to a science magazine.",
+                "salience": 0.23
+            },
+            {
+                "step": 8,
+                "type": "encode",
+                "fact": "The user mentioned enjoying jazz music on weekends.",
+                "salience": 0.23
+            },
+            {
+                "step": 9,
+                "type": "encode",
+                "fact": "The user mentioned their favorite color is teal.",
+                "salience": 0.18
+            },
+            {
+                "step": 10,
+                "type": "encode",
+                "fact": "The user said they prefer working with dual monitors.",
+                "salience": 0.17
+            },
+            {
+                "step": 11,
+                "type": "encode",
+                "fact": "The user mentioned enjoying a specific brand of running shoes.",
+                "salience": 0.38
+            },
+            {
+                "step": 12,
+                "type": "encode",
+                "fact": "The user commented that they like collecting vinyl records.",
+                "salience": 0.23
+            },
+            {
+                "step": 13,
+                "type": "query",
+                "question": "What operating system does the user use?",
+                "target": "macOS",
+                "conflict_pair": [
+                    "Windows",
+                    "macOS"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Overlap",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user likes video games.",
+                "salience": 0.31
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user is a ranked professional esports player in a shooter title.",
+                "salience": 0.75
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user mentioned a fondness for old black-and-white films.",
+                "salience": 0.28
+            },
+            {
+                "step": 4,
+                "type": "query",
+                "question": "What is the user's involvement with video games?",
+                "target": "ranked professional esports player",
+                "conflict_pair": [
+                    "likes video games",
+                    "professional esports player"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Overlap",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user enjoys playing tennis.",
+                "salience": 0.47
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user is a competitive tennis player in the regional league.",
+                "salience": 0.77
+            },
+            {
+                "step": 3,
+                "type": "query",
+                "question": "What is the user's relationship with tennis?",
+                "target": "competitive tennis player",
+                "conflict_pair": [
+                    "enjoys playing",
+                    "competitive"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Building-On",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user is learning Python.",
+                "salience": 0.36
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user has mastered Python and is now studying PyTorch for deep learning.",
+                "salience": 0.72
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user said they like to listen to podcasts while commuting.",
+                "salience": 0.18
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user mentioned they follow a few tech blogs regularly.",
+                "salience": 0.37
+            },
+            {
+                "step": 5,
+                "type": "encode",
+                "fact": "The user said they like to sketch in a small notebook.",
+                "salience": 0.12
+            },
+            {
+                "step": 6,
+                "type": "query",
+                "question": "What is the user's current level of programming expertise?",
+                "target": "PyTorch",
+                "conflict_pair": [
+                    "Python",
+                    "PyTorch"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Overlap",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user is a fan of craft beer.",
+                "salience": 0.48
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user is head brewer at an award-winning craft brewery.",
+                "salience": 0.9
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user said they like trying new recipes on weekends.",
+                "salience": 0.37
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user mentioned their favorite color is teal.",
+                "salience": 0.1
+            },
+            {
+                "step": 5,
+                "type": "encode",
+                "fact": "The user commented that they enjoy stargazing occasionally.",
+                "salience": 0.14
+            },
+            {
+                "step": 6,
+                "type": "query",
+                "question": "What is the user's role with craft beer?",
+                "target": "head brewer at an award-winning brewery",
+                "conflict_pair": [
+                    "fan of craft beer",
+                    "head brewer"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Overlap",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user likes coding.",
+                "salience": 0.41
+            },
+            {
+                "step": 2,
+                "type": "encode",
+                "fact": "The user is a core maintainer of a popular open-source machine learning library.",
+                "salience": 0.86
+            },
+            {
+                "step": 3,
+                "type": "encode",
+                "fact": "The user said they like trying new recipes on weekends.",
+                "salience": 0.26
+            },
+            {
+                "step": 4,
+                "type": "encode",
+                "fact": "The user mentioned enjoying jazz music on weekends.",
+                "salience": 0.38
+            },
+            {
+                "step": 5,
+                "type": "encode",
+                "fact": "The user mentioned they have a standing desk at home.",
+                "salience": 0.23
+            },
+            {
+                "step": 6,
+                "type": "encode",
+                "fact": "The user mentioned they recently upgraded their laptop.",
+                "salience": 0.31
+            },
+            {
+                "step": 7,
+                "type": "query",
+                "question": "What is the user's role in the coding community?",
+                "target": "core maintainer of an ML library",
+                "conflict_pair": [
+                    "likes coding",
+                    "core maintainer"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Building-On",
+        "sequence": [
+            {
+                "step": 1,
+                "type": "encode",
+                "fact": "The user has shipped a production web app used by thousands of users.",
+                "salience": 0.9
+            },
+            {
+                "step": 2,
+                "type": "query",
+                "question": "What has the user accomplished with JavaScript?",
+                "target": "shipped a production web app",
+                "conflict_pair": [
+                    "learning JavaScript",
+                    "shipped a production app"
+                ]
+            }
+        ]
+    }
+]
