@@ -1,0 +1,10 @@
+{
+  "labels": [
+    "semantic",
+    "episodic"
+  ],
+  "label2idx": {
+    "semantic": 0,
+    "episodic": 1
+  }
+}
