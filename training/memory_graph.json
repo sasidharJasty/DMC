@@ -1,0 +1,526 @@
+{
+  "nodes": [
+    {
+      "id": "event_18",
+      "label": "Episodic",
+      "properties": {
+        "timestamp": "2026-01-03T19:23:57.610381+00:00",
+        "usage_counter": 1,
+        "retention_value": 0.9558,
+        "state_vector": [
+          0.4472,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.4472,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.4472,
+          0.0,
+          0.0,
+          0.4472,
+          0.4472,
+          0.0
+        ],
+        "display_text": "I visited the Grand Canyon.",
+        "node_id": "event_18"
+      }
+    },
+    {
+      "id": "semantic_00d9797281ad",
+      "label": "Semantic",
+      "properties": {
+        "entity_class": "entity",
+        "embedding_vector": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "display_text": "I",
+        "node_id": "semantic_00d9797281ad"
+      }
+    },
+    {
+      "id": "semantic_369f6256b0e7",
+      "label": "Semantic",
+      "properties": {
+        "entity_class": "entity",
+        "embedding_vector": [
+          0.5774,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.5774,
+          0.0,
+          0.0,
+          0.5774,
+          0.0,
+          0.0
+        ],
+        "display_text": "the Grand Canyon",
+        "node_id": "semantic_369f6256b0e7"
+      }
+    },
+    {
+      "id": "event_19",
+      "label": "Episodic",
+      "properties": {
+        "timestamp": "2026-04-13T19:23:57.610381+00:00",
+        "usage_counter": 1,
+        "retention_value": 0.9969,
+        "state_vector": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "display_text": "I visited Yellowstone.",
+        "node_id": "event_19"
+      }
+    },
+    {
+      "id": "semantic_24df8b6a1bbc",
+      "label": "Semantic",
+      "properties": {
+        "entity_class": "entity",
+        "embedding_vector": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "display_text": "Yellowstone",
+        "node_id": "semantic_24df8b6a1bbc"
+      }
+    },
+    {
+      "id": "event_20",
+      "label": "Episodic",
+      "properties": {
+        "timestamp": "2026-06-02T19:23:57.610381+00:00",
+        "usage_counter": 1,
+        "retention_value": 0.9969,
+        "state_vector": [
+          -0.5774,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.5774,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.5774,
+          0.0
+        ],
+        "display_text": "I visited Yosemite.",
+        "node_id": "event_20"
+      }
+    },
+    {
+      "id": "semantic_cce3e8a75334",
+      "label": "Semantic",
+      "properties": {
+        "entity_class": "entity",
+        "embedding_vector": [
+          -1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "display_text": "Yosemite",
+        "node_id": "semantic_cce3e8a75334"
+      }
+    },
+    {
+      "id": "event_21",
+      "label": "Episodic",
+      "properties": {
+        "timestamp": "2026-07-12T19:23:57.610381+00:00",
+        "usage_counter": 1,
+        "retention_value": 0.9558,
+        "state_vector": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.5774,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.5774,
+          0.0,
+          0.0,
+          0.0,
+          0.5774,
+          0.0
+        ],
+        "display_text": "I visited the Grand Tetons.",
+        "node_id": "event_21"
+      }
+    },
+    {
+      "id": "semantic_7c6e983f32d0",
+      "label": "Semantic",
+      "properties": {
+        "entity_class": "entity",
+        "embedding_vector": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "display_text": "the Grand Tetons",
+        "node_id": "semantic_7c6e983f32d0"
+      }
+    },
+    {
+      "id": "event_22",
+      "label": "Episodic",
+      "properties": {
+        "timestamp": "2026-07-21T19:23:57.610381+00:00",
+        "usage_counter": 1,
+        "retention_value": 0.5176,
+        "state_vector": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.5,
+          -0.5,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.5,
+          0.0,
+          0.0,
+          -0.5,
+          0.0
+        ],
+        "display_text": "I live in Chicago.",
+        "node_id": "event_22"
+      }
+    },
+    {
+      "id": "semantic_dfcdcf40fc07",
+      "label": "Semantic",
+      "properties": {
+        "entity_class": "entity",
+        "embedding_vector": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.7071,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.7071,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "display_text": "in Chicago",
+        "node_id": "semantic_dfcdcf40fc07"
+      }
+    },
+    {
+      "id": "fact_23",
+      "label": "Semantic",
+      "properties": {
+        "entity_class": "fact",
+        "embedding_vector": [
+          -0.4082,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.4082,
+          -0.4082,
+          0.0,
+          0.4082,
+          0.0,
+          0.4082,
+          0.0,
+          0.4082
+        ],
+        "display_text": "Water freezes at 0 degrees Celsius.",
+        "node_id": "fact_23"
+      }
+    },
+    {
+      "id": "rule___self___visit",
+      "label": "Procedural",
+      "properties": {
+        "activation_condition": "subject='__self__', predicate='visit'",
+        "execution_step": "log new 'visit' event for __self__ and temporally link it to the existing pattern",
+        "confidence_score": 0.4,
+        "rule_id": "rule___self___visit"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_8ef4c9293baf",
+      "type": "INVOLVED_IN",
+      "source": "semantic_00d9797281ad",
+      "target": "event_18",
+      "properties": {
+        "attention_weight": 0.9558,
+        "role": "subject"
+      }
+    },
+    {
+      "id": "e_6f145b164aa7",
+      "type": "INVOLVED_IN",
+      "source": "semantic_369f6256b0e7",
+      "target": "event_18",
+      "properties": {
+        "attention_weight": 0.9558,
+        "role": "object"
+      }
+    },
+    {
+      "id": "e_2de102b6f9bb",
+      "type": "INVOLVED_IN",
+      "source": "semantic_00d9797281ad",
+      "target": "event_19",
+      "properties": {
+        "attention_weight": 0.9969,
+        "role": "subject"
+      }
+    },
+    {
+      "id": "e_d93464376cdb",
+      "type": "INVOLVED_IN",
+      "source": "semantic_24df8b6a1bbc",
+      "target": "event_19",
+      "properties": {
+        "attention_weight": 0.9969,
+        "role": "object"
+      }
+    },
+    {
+      "id": "e_b9ffc8b819fd",
+      "type": "INVOLVED_IN",
+      "source": "semantic_00d9797281ad",
+      "target": "event_20",
+      "properties": {
+        "attention_weight": 0.9969,
+        "role": "subject"
+      }
+    },
+    {
+      "id": "e_cf8f2c677774",
+      "type": "INVOLVED_IN",
+      "source": "semantic_cce3e8a75334",
+      "target": "event_20",
+      "properties": {
+        "attention_weight": 0.9969,
+        "role": "object"
+      }
+    },
+    {
+      "id": "e_2acc426a9106",
+      "type": "INVOLVED_IN",
+      "source": "semantic_00d9797281ad",
+      "target": "event_21",
+      "properties": {
+        "attention_weight": 0.9558,
+        "role": "subject"
+      }
+    },
+    {
+      "id": "e_70660aee6322",
+      "type": "INVOLVED_IN",
+      "source": "semantic_7c6e983f32d0",
+      "target": "event_21",
+      "properties": {
+        "attention_weight": 0.9558,
+        "role": "object"
+      }
+    },
+    {
+      "id": "e_e005037a4a4d",
+      "type": "INVOLVED_IN",
+      "source": "semantic_00d9797281ad",
+      "target": "event_22",
+      "properties": {
+        "attention_weight": 0.5176,
+        "role": "subject"
+      }
+    },
+    {
+      "id": "e_5fdf12dec63f",
+      "type": "INVOLVED_IN",
+      "source": "semantic_dfcdcf40fc07",
+      "target": "event_22",
+      "properties": {
+        "attention_weight": 0.5176,
+        "role": "object"
+      }
+    },
+    {
+      "id": "e_669bf3cee3cb",
+      "type": "TEMPORAL_LINK",
+      "source": "event_18",
+      "target": "event_19",
+      "properties": {
+        "forward_weight": 0.1138,
+        "backward_weight": 0.1025
+      }
+    },
+    {
+      "id": "e_c93ee479c0ca",
+      "type": "TEMPORAL_LINK",
+      "source": "event_19",
+      "target": "event_20",
+      "properties": {
+        "forward_weight": 0.1236,
+        "backward_weight": 0.1112
+      }
+    },
+    {
+      "id": "e_19e78c484c9f",
+      "type": "TEMPORAL_LINK",
+      "source": "event_20",
+      "target": "event_21",
+      "properties": {
+        "forward_weight": 0.1271,
+        "backward_weight": 0.1144
+      }
+    },
+    {
+      "id": "e_cd5e73e8c9dc",
+      "type": "TEMPORAL_LINK",
+      "source": "event_21",
+      "target": "event_22",
+      "properties": {
+        "forward_weight": 0.1567,
+        "backward_weight": 0.1411
+      }
+    },
+    {
+      "id": "e_644701421f21",
+      "type": "TRIGGERS",
+      "source": "rule___self___visit",
+      "target": "event_18",
+      "properties": {
+        "execution_probability": 0.4
+      }
+    },
+    {
+      "id": "e_07a463ba82de",
+      "type": "TRIGGERS",
+      "source": "rule___self___visit",
+      "target": "event_19",
+      "properties": {
+        "execution_probability": 0.4
+      }
+    },
+    {
+      "id": "e_c55620ceb22f",
+      "type": "TRIGGERS",
+      "source": "rule___self___visit",
+      "target": "event_20",
+      "properties": {
+        "execution_probability": 0.4
+      }
+    },
+    {
+      "id": "e_a813a29b6dca",
+      "type": "TRIGGERS",
+      "source": "rule___self___visit",
+      "target": "event_21",
+      "properties": {
+        "execution_probability": 0.4
+      }
+    }
+  ]
+}
